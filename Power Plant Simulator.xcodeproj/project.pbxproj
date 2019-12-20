@@ -1,0 +1,474 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CBF8AC0E23AD587C00EC338B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBF8AC0D23AD587C00EC338B /* AppDelegate.swift */; };
+		CBF8AC1023AD587C00EC338B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBF8AC0F23AD587C00EC338B /* SceneDelegate.swift */; };
+		CBF8AC1223AD587C00EC338B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBF8AC1123AD587C00EC338B /* ViewController.swift */; };
+		CBF8AC1523AD587C00EC338B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CBF8AC1323AD587C00EC338B /* Main.storyboard */; };
+		CBF8AC1723AD587E00EC338B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CBF8AC1623AD587E00EC338B /* Assets.xcassets */; };
+		CBF8AC1A23AD587E00EC338B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CBF8AC1823AD587E00EC338B /* LaunchScreen.storyboard */; };
+		CBF8AC2523AD587E00EC338B /* Power_Plant_SimulatorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBF8AC2423AD587E00EC338B /* Power_Plant_SimulatorTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CBF8AC2123AD587E00EC338B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CBF8AC0223AD587C00EC338B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CBF8AC0923AD587C00EC338B;
+			remoteInfo = "Power Plant Simulator";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CBF8AC0A23AD587C00EC338B /* Power Plant Simulator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Power Plant Simulator.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CBF8AC0D23AD587C00EC338B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		CBF8AC0F23AD587C00EC338B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		CBF8AC1123AD587C00EC338B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		CBF8AC1423AD587C00EC338B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CBF8AC1623AD587E00EC338B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CBF8AC1923AD587E00EC338B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CBF8AC1B23AD587E00EC338B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CBF8AC2023AD587E00EC338B /* Power Plant SimulatorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Power Plant SimulatorTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CBF8AC2423AD587E00EC338B /* Power_Plant_SimulatorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Power_Plant_SimulatorTests.swift; sourceTree = "<group>"; };
+		CBF8AC2623AD587E00EC338B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CBF8AC0723AD587C00EC338B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CBF8AC1D23AD587E00EC338B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CBF8AC0123AD587C00EC338B = {
+			isa = PBXGroup;
+			children = (
+				CBF8AC0C23AD587C00EC338B /* Power Plant Simulator */,
+				CBF8AC2323AD587E00EC338B /* Power Plant SimulatorTests */,
+				CBF8AC0B23AD587C00EC338B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CBF8AC0B23AD587C00EC338B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CBF8AC0A23AD587C00EC338B /* Power Plant Simulator.app */,
+				CBF8AC2023AD587E00EC338B /* Power Plant SimulatorTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CBF8AC0C23AD587C00EC338B /* Power Plant Simulator */ = {
+			isa = PBXGroup;
+			children = (
+				CBF8AC0D23AD587C00EC338B /* AppDelegate.swift */,
+				CBF8AC0F23AD587C00EC338B /* SceneDelegate.swift */,
+				CBF8AC1123AD587C00EC338B /* ViewController.swift */,
+				CBF8AC1323AD587C00EC338B /* Main.storyboard */,
+				CBF8AC1623AD587E00EC338B /* Assets.xcassets */,
+				CBF8AC1823AD587E00EC338B /* LaunchScreen.storyboard */,
+				CBF8AC1B23AD587E00EC338B /* Info.plist */,
+			);
+			path = "Power Plant Simulator";
+			sourceTree = "<group>";
+		};
+		CBF8AC2323AD587E00EC338B /* Power Plant SimulatorTests */ = {
+			isa = PBXGroup;
+			children = (
+				CBF8AC2423AD587E00EC338B /* Power_Plant_SimulatorTests.swift */,
+				CBF8AC2623AD587E00EC338B /* Info.plist */,
+			);
+			path = "Power Plant SimulatorTests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CBF8AC0923AD587C00EC338B /* Power Plant Simulator */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CBF8AC2923AD587E00EC338B /* Build configuration list for PBXNativeTarget "Power Plant Simulator" */;
+			buildPhases = (
+				CBF8AC0623AD587C00EC338B /* Sources */,
+				CBF8AC0723AD587C00EC338B /* Frameworks */,
+				CBF8AC0823AD587C00EC338B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Power Plant Simulator";
+			productName = "Power Plant Simulator";
+			productReference = CBF8AC0A23AD587C00EC338B /* Power Plant Simulator.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CBF8AC1F23AD587E00EC338B /* Power Plant SimulatorTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CBF8AC2C23AD587E00EC338B /* Build configuration list for PBXNativeTarget "Power Plant SimulatorTests" */;
+			buildPhases = (
+				CBF8AC1C23AD587E00EC338B /* Sources */,
+				CBF8AC1D23AD587E00EC338B /* Frameworks */,
+				CBF8AC1E23AD587E00EC338B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CBF8AC2223AD587E00EC338B /* PBXTargetDependency */,
+			);
+			name = "Power Plant SimulatorTests";
+			productName = "Power Plant SimulatorTests";
+			productReference = CBF8AC2023AD587E00EC338B /* Power Plant SimulatorTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CBF8AC0223AD587C00EC338B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1110;
+				LastUpgradeCheck = 1110;
+				ORGANIZATIONNAME = "William Choi";
+				TargetAttributes = {
+					CBF8AC0923AD587C00EC338B = {
+						CreatedOnToolsVersion = 11.1;
+					};
+					CBF8AC1F23AD587E00EC338B = {
+						CreatedOnToolsVersion = 11.1;
+						TestTargetID = CBF8AC0923AD587C00EC338B;
+					};
+				};
+			};
+			buildConfigurationList = CBF8AC0523AD587C00EC338B /* Build configuration list for PBXProject "Power Plant Simulator" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CBF8AC0123AD587C00EC338B;
+			productRefGroup = CBF8AC0B23AD587C00EC338B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CBF8AC0923AD587C00EC338B /* Power Plant Simulator */,
+				CBF8AC1F23AD587E00EC338B /* Power Plant SimulatorTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CBF8AC0823AD587C00EC338B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CBF8AC1A23AD587E00EC338B /* LaunchScreen.storyboard in Resources */,
+				CBF8AC1723AD587E00EC338B /* Assets.xcassets in Resources */,
+				CBF8AC1523AD587C00EC338B /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CBF8AC1E23AD587E00EC338B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CBF8AC0623AD587C00EC338B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CBF8AC1223AD587C00EC338B /* ViewController.swift in Sources */,
+				CBF8AC0E23AD587C00EC338B /* AppDelegate.swift in Sources */,
+				CBF8AC1023AD587C00EC338B /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CBF8AC1C23AD587E00EC338B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CBF8AC2523AD587E00EC338B /* Power_Plant_SimulatorTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CBF8AC2223AD587E00EC338B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CBF8AC0923AD587C00EC338B /* Power Plant Simulator */;
+			targetProxy = CBF8AC2123AD587E00EC338B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CBF8AC1323AD587C00EC338B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CBF8AC1423AD587C00EC338B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CBF8AC1823AD587E00EC338B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CBF8AC1923AD587E00EC338B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CBF8AC2723AD587E00EC338B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		CBF8AC2823AD587E00EC338B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CBF8AC2A23AD587E00EC338B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = R5SZP8SN2M;
+				INFOPLIST_FILE = "Power Plant Simulator/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.choiw.Power-Plant-Simulator";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CBF8AC2B23AD587E00EC338B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = R5SZP8SN2M;
+				INFOPLIST_FILE = "Power Plant Simulator/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.choiw.Power-Plant-Simulator";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		CBF8AC2D23AD587E00EC338B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = R5SZP8SN2M;
+				INFOPLIST_FILE = "Power Plant SimulatorTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.choiw.Power-Plant-SimulatorTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Power Plant Simulator.app/Power Plant Simulator";
+			};
+			name = Debug;
+		};
+		CBF8AC2E23AD587E00EC338B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = R5SZP8SN2M;
+				INFOPLIST_FILE = "Power Plant SimulatorTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.choiw.Power-Plant-SimulatorTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Power Plant Simulator.app/Power Plant Simulator";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CBF8AC0523AD587C00EC338B /* Build configuration list for PBXProject "Power Plant Simulator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CBF8AC2723AD587E00EC338B /* Debug */,
+				CBF8AC2823AD587E00EC338B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CBF8AC2923AD587E00EC338B /* Build configuration list for PBXNativeTarget "Power Plant Simulator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CBF8AC2A23AD587E00EC338B /* Debug */,
+				CBF8AC2B23AD587E00EC338B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CBF8AC2C23AD587E00EC338B /* Build configuration list for PBXNativeTarget "Power Plant SimulatorTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CBF8AC2D23AD587E00EC338B /* Debug */,
+				CBF8AC2E23AD587E00EC338B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CBF8AC0223AD587C00EC338B /* Project object */;
+}
