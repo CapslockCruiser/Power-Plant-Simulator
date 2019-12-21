@@ -3,17 +3,29 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		10A6877D76559D75FDD32EA0 /* Pods_Power_Plant_Simulator.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5CFFE95EC1CCB374CB94EEFD /* Pods_Power_Plant_Simulator.framework */; };
 		CBF8AC0E23AD587C00EC338B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBF8AC0D23AD587C00EC338B /* AppDelegate.swift */; };
 		CBF8AC1023AD587C00EC338B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBF8AC0F23AD587C00EC338B /* SceneDelegate.swift */; };
 		CBF8AC1223AD587C00EC338B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBF8AC1123AD587C00EC338B /* ViewController.swift */; };
-		CBF8AC1523AD587C00EC338B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CBF8AC1323AD587C00EC338B /* Main.storyboard */; };
 		CBF8AC1723AD587E00EC338B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CBF8AC1623AD587E00EC338B /* Assets.xcassets */; };
 		CBF8AC1A23AD587E00EC338B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CBF8AC1823AD587E00EC338B /* LaunchScreen.storyboard */; };
 		CBF8AC2523AD587E00EC338B /* Power_Plant_SimulatorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBF8AC2423AD587E00EC338B /* Power_Plant_SimulatorTests.swift */; };
+		CBF8AC3123AD654000EC338B /* AppCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBF8AC3023AD654000EC338B /* AppCoordinator.swift */; };
+		CBF8AC3323AD655500EC338B /* Coordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBF8AC3223AD655500EC338B /* Coordinator.swift */; };
+		CBF8AC3623ADD1AB00EC338B /* InitialViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBF8AC3523ADD1AB00EC338B /* InitialViewController.swift */; };
+		CBF8AC3823ADE10E00EC338B /* Random.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CBF8AC3723ADE10E00EC338B /* Random.storyboard */; };
+		CBF8AC3B23AE9C2B00EC338B /* DataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBF8AC3A23AE9C2B00EC338B /* DataManager.swift */; };
+		CBF8AC3E23AEA17E00EC338B /* Turbine.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBF8AC3D23AEA17E00EC338B /* Turbine.swift */; };
+		CBF8AC4323AEA92A00EC338B /* CalculationEngine.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBF8AC4223AEA92A00EC338B /* CalculationEngine.swift */; };
+		CBF8AC4523AEA94000EC338B /* Plant.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBF8AC4423AEA94000EC338B /* Plant.swift */; };
+		CBF8AC4723AEA95500EC338B /* Finance.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBF8AC4623AEA95500EC338B /* Finance.swift */; };
+		CBF8AC4923AEAC0300EC338B /* Demand.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBF8AC4823AEAC0300EC338B /* Demand.swift */; };
+		CBF8AC4B23AEACB900EC338B /* Condition.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBF8AC4A23AEACB900EC338B /* Condition.swift */; };
+		EADB1F0A5820817849818BE9 /* Pods_Power_Plant_SimulatorTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D986BA5AA2854FCC9A295315 /* Pods_Power_Plant_SimulatorTests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -27,17 +39,33 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		421D0811C395D41E17EBA223 /* Pods-Power Plant Simulator.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Power Plant Simulator.release.xcconfig"; path = "Target Support Files/Pods-Power Plant Simulator/Pods-Power Plant Simulator.release.xcconfig"; sourceTree = "<group>"; };
+		5CFFE95EC1CCB374CB94EEFD /* Pods_Power_Plant_Simulator.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Power_Plant_Simulator.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		888720DB45B746BBE59093D4 /* Pods-Power Plant Simulator.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Power Plant Simulator.debug.xcconfig"; path = "Target Support Files/Pods-Power Plant Simulator/Pods-Power Plant Simulator.debug.xcconfig"; sourceTree = "<group>"; };
+		8DF9AEA488EC8435001D26C6 /* Pods-Power Plant SimulatorTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Power Plant SimulatorTests.release.xcconfig"; path = "Target Support Files/Pods-Power Plant SimulatorTests/Pods-Power Plant SimulatorTests.release.xcconfig"; sourceTree = "<group>"; };
 		CBF8AC0A23AD587C00EC338B /* Power Plant Simulator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Power Plant Simulator.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		CBF8AC0D23AD587C00EC338B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CBF8AC0F23AD587C00EC338B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		CBF8AC1123AD587C00EC338B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		CBF8AC1423AD587C00EC338B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		CBF8AC1623AD587E00EC338B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CBF8AC1923AD587E00EC338B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CBF8AC1B23AD587E00EC338B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CBF8AC2023AD587E00EC338B /* Power Plant SimulatorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Power Plant SimulatorTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		CBF8AC2423AD587E00EC338B /* Power_Plant_SimulatorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Power_Plant_SimulatorTests.swift; sourceTree = "<group>"; };
 		CBF8AC2623AD587E00EC338B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CBF8AC3023AD654000EC338B /* AppCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppCoordinator.swift; sourceTree = "<group>"; };
+		CBF8AC3223AD655500EC338B /* Coordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Coordinator.swift; sourceTree = "<group>"; };
+		CBF8AC3523ADD1AB00EC338B /* InitialViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InitialViewController.swift; sourceTree = "<group>"; };
+		CBF8AC3723ADE10E00EC338B /* Random.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Random.storyboard; sourceTree = "<group>"; };
+		CBF8AC3A23AE9C2B00EC338B /* DataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataManager.swift; sourceTree = "<group>"; };
+		CBF8AC3D23AEA17E00EC338B /* Turbine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Turbine.swift; sourceTree = "<group>"; };
+		CBF8AC4223AEA92A00EC338B /* CalculationEngine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalculationEngine.swift; sourceTree = "<group>"; };
+		CBF8AC4423AEA94000EC338B /* Plant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Plant.swift; sourceTree = "<group>"; };
+		CBF8AC4623AEA95500EC338B /* Finance.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Finance.swift; sourceTree = "<group>"; };
+		CBF8AC4823AEAC0300EC338B /* Demand.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Demand.swift; sourceTree = "<group>"; };
+		CBF8AC4A23AEACB900EC338B /* Condition.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Condition.swift; sourceTree = "<group>"; };
+		D986BA5AA2854FCC9A295315 /* Pods_Power_Plant_SimulatorTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Power_Plant_SimulatorTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E54EF733B24635AB07A7D847 /* Pods-Power Plant SimulatorTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Power Plant SimulatorTests.debug.xcconfig"; path = "Target Support Files/Pods-Power Plant SimulatorTests/Pods-Power Plant SimulatorTests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -45,6 +73,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				10A6877D76559D75FDD32EA0 /* Pods_Power_Plant_Simulator.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -52,18 +81,41 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EADB1F0A5820817849818BE9 /* Pods_Power_Plant_SimulatorTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		30776C9DD0E6B4139CDE1924 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5CFFE95EC1CCB374CB94EEFD /* Pods_Power_Plant_Simulator.framework */,
+				D986BA5AA2854FCC9A295315 /* Pods_Power_Plant_SimulatorTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		927115B71C45B838B92FF9CE /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				888720DB45B746BBE59093D4 /* Pods-Power Plant Simulator.debug.xcconfig */,
+				421D0811C395D41E17EBA223 /* Pods-Power Plant Simulator.release.xcconfig */,
+				E54EF733B24635AB07A7D847 /* Pods-Power Plant SimulatorTests.debug.xcconfig */,
+				8DF9AEA488EC8435001D26C6 /* Pods-Power Plant SimulatorTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		CBF8AC0123AD587C00EC338B = {
 			isa = PBXGroup;
 			children = (
 				CBF8AC0C23AD587C00EC338B /* Power Plant Simulator */,
 				CBF8AC2323AD587E00EC338B /* Power Plant SimulatorTests */,
 				CBF8AC0B23AD587C00EC338B /* Products */,
+				927115B71C45B838B92FF9CE /* Pods */,
+				30776C9DD0E6B4139CDE1924 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -79,13 +131,18 @@
 		CBF8AC0C23AD587C00EC338B /* Power Plant Simulator */ = {
 			isa = PBXGroup;
 			children = (
+				CBF8AC4123AEA91400EC338B /* Calculations */,
+				CBF8AC3C23AE9CBF00EC338B /* Models */,
+				CBF8AC3923AE9C1A00EC338B /* Helpers */,
+				CBF8AC3423ADD19800EC338B /* ViewControllers */,
+				CBF8AC2F23AD652800EC338B /* Coordinators */,
 				CBF8AC0D23AD587C00EC338B /* AppDelegate.swift */,
 				CBF8AC0F23AD587C00EC338B /* SceneDelegate.swift */,
 				CBF8AC1123AD587C00EC338B /* ViewController.swift */,
-				CBF8AC1323AD587C00EC338B /* Main.storyboard */,
 				CBF8AC1623AD587E00EC338B /* Assets.xcassets */,
 				CBF8AC1823AD587E00EC338B /* LaunchScreen.storyboard */,
 				CBF8AC1B23AD587E00EC338B /* Info.plist */,
+				CBF8AC3723ADE10E00EC338B /* Random.storyboard */,
 			);
 			path = "Power Plant Simulator";
 			sourceTree = "<group>";
@@ -99,6 +156,51 @@
 			path = "Power Plant SimulatorTests";
 			sourceTree = "<group>";
 		};
+		CBF8AC2F23AD652800EC338B /* Coordinators */ = {
+			isa = PBXGroup;
+			children = (
+				CBF8AC3023AD654000EC338B /* AppCoordinator.swift */,
+				CBF8AC3223AD655500EC338B /* Coordinator.swift */,
+			);
+			path = Coordinators;
+			sourceTree = "<group>";
+		};
+		CBF8AC3423ADD19800EC338B /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				CBF8AC3523ADD1AB00EC338B /* InitialViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		CBF8AC3923AE9C1A00EC338B /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				CBF8AC3A23AE9C2B00EC338B /* DataManager.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		CBF8AC3C23AE9CBF00EC338B /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				CBF8AC3D23AEA17E00EC338B /* Turbine.swift */,
+				CBF8AC4423AEA94000EC338B /* Plant.swift */,
+				CBF8AC4623AEA95500EC338B /* Finance.swift */,
+				CBF8AC4823AEAC0300EC338B /* Demand.swift */,
+				CBF8AC4A23AEACB900EC338B /* Condition.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		CBF8AC4123AEA91400EC338B /* Calculations */ = {
+			isa = PBXGroup;
+			children = (
+				CBF8AC4223AEA92A00EC338B /* CalculationEngine.swift */,
+			);
+			path = Calculations;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -106,9 +208,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = CBF8AC2923AD587E00EC338B /* Build configuration list for PBXNativeTarget "Power Plant Simulator" */;
 			buildPhases = (
+				1DC8BD9AF218A3AFBD45D168 /* [CP] Check Pods Manifest.lock */,
 				CBF8AC0623AD587C00EC338B /* Sources */,
 				CBF8AC0723AD587C00EC338B /* Frameworks */,
 				CBF8AC0823AD587C00EC338B /* Resources */,
+				91753AAE5E5C2A4954760501 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -123,6 +227,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = CBF8AC2C23AD587E00EC338B /* Build configuration list for PBXNativeTarget "Power Plant SimulatorTests" */;
 			buildPhases = (
+				981365321498DD2F2DC99F05 /* [CP] Check Pods Manifest.lock */,
 				CBF8AC1C23AD587E00EC338B /* Sources */,
 				CBF8AC1D23AD587E00EC338B /* Frameworks */,
 				CBF8AC1E23AD587E00EC338B /* Resources */,
@@ -181,8 +286,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				CBF8AC1A23AD587E00EC338B /* LaunchScreen.storyboard in Resources */,
+				CBF8AC3823ADE10E00EC338B /* Random.storyboard in Resources */,
 				CBF8AC1723AD587E00EC338B /* Assets.xcassets in Resources */,
-				CBF8AC1523AD587C00EC338B /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -195,14 +300,88 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		1DC8BD9AF218A3AFBD45D168 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Power Plant Simulator-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		91753AAE5E5C2A4954760501 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Power Plant Simulator/Pods-Power Plant Simulator-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Power Plant Simulator/Pods-Power Plant Simulator-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Power Plant Simulator/Pods-Power Plant Simulator-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		981365321498DD2F2DC99F05 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Power Plant SimulatorTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		CBF8AC0623AD587C00EC338B /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CBF8AC3123AD654000EC338B /* AppCoordinator.swift in Sources */,
+				CBF8AC3E23AEA17E00EC338B /* Turbine.swift in Sources */,
 				CBF8AC1223AD587C00EC338B /* ViewController.swift in Sources */,
+				CBF8AC3323AD655500EC338B /* Coordinator.swift in Sources */,
+				CBF8AC4923AEAC0300EC338B /* Demand.swift in Sources */,
+				CBF8AC4723AEA95500EC338B /* Finance.swift in Sources */,
+				CBF8AC3B23AE9C2B00EC338B /* DataManager.swift in Sources */,
+				CBF8AC3623ADD1AB00EC338B /* InitialViewController.swift in Sources */,
+				CBF8AC4B23AEACB900EC338B /* Condition.swift in Sources */,
 				CBF8AC0E23AD587C00EC338B /* AppDelegate.swift in Sources */,
+				CBF8AC4523AEA94000EC338B /* Plant.swift in Sources */,
 				CBF8AC1023AD587C00EC338B /* SceneDelegate.swift in Sources */,
+				CBF8AC4323AEA92A00EC338B /* CalculationEngine.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -225,14 +404,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		CBF8AC1323AD587C00EC338B /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				CBF8AC1423AD587C00EC338B /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		CBF8AC1823AD587E00EC338B /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -360,6 +531,7 @@
 		};
 		CBF8AC2A23AD587E00EC338B /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 888720DB45B746BBE59093D4 /* Pods-Power Plant Simulator.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -378,6 +550,7 @@
 		};
 		CBF8AC2B23AD587E00EC338B /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 421D0811C395D41E17EBA223 /* Pods-Power Plant Simulator.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -396,6 +569,7 @@
 		};
 		CBF8AC2D23AD587E00EC338B /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E54EF733B24635AB07A7D847 /* Pods-Power Plant SimulatorTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -418,6 +592,7 @@
 		};
 		CBF8AC2E23AD587E00EC338B /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8DF9AEA488EC8435001D26C6 /* Pods-Power Plant SimulatorTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
